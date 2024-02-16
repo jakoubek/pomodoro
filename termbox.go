@@ -56,7 +56,7 @@ func render(start, finish time.Time, formatter func(time.Duration) string) bool 
 		return false
 	}
 
-	const timeFmt = "3:04:05pm"
+	const timeFmt = "15:04:05"
 	screenW, screenH := termbox.Size()
 	centerX := screenW / 2
 	centerY := screenH / 2
